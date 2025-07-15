@@ -19,6 +19,7 @@ setup(
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
+        # 注意这里的node1是可执行文件名称
         'console_scripts': [
             'node1=demo_pkg.python_node:main'
         ],
