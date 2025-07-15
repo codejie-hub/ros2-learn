@@ -1,0 +1,38 @@
+[0.421s] Invoking command in '/home/wp/learn_ros/chapter02/demo_pkg': PYTHONPATH=/home/wp/learn_ros/chapter02/build/demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wp/learn_ros/chapter02/install/demo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_pkg build --build-base /home/wp/learn_ros/chapter02/build/demo_pkg/build install --record /home/wp/learn_ros/chapter02/build/demo_pkg/install.log --single-version-externally-managed install_data
+[0.558s] running egg_info
+[0.558s] creating ../build/demo_pkg/demo_pkg.egg-info
+[0.558s] writing ../build/demo_pkg/demo_pkg.egg-info/PKG-INFO
+[0.559s] writing dependency_links to ../build/demo_pkg/demo_pkg.egg-info/dependency_links.txt
+[0.559s] writing entry points to ../build/demo_pkg/demo_pkg.egg-info/entry_points.txt
+[0.559s] writing requirements to ../build/demo_pkg/demo_pkg.egg-info/requires.txt
+[0.559s] writing top-level names to ../build/demo_pkg/demo_pkg.egg-info/top_level.txt
+[0.559s] writing manifest file '../build/demo_pkg/demo_pkg.egg-info/SOURCES.txt'
+[0.560s] reading manifest file '../build/demo_pkg/demo_pkg.egg-info/SOURCES.txt'
+[0.560s] adding license file 'LICENSE'
+[0.560s] writing manifest file '../build/demo_pkg/demo_pkg.egg-info/SOURCES.txt'
+[0.560s] running build
+[0.560s] running build_py
+[0.560s] creating /home/wp/learn_ros/chapter02/build/demo_pkg/build
+[0.560s] creating /home/wp/learn_ros/chapter02/build/demo_pkg/build/lib
+[0.560s] creating /home/wp/learn_ros/chapter02/build/demo_pkg/build/lib/demo_pkg
+[0.561s] copying demo_pkg/python_node.py -> /home/wp/learn_ros/chapter02/build/demo_pkg/build/lib/demo_pkg
+[0.561s] copying demo_pkg/__init__.py -> /home/wp/learn_ros/chapter02/build/demo_pkg/build/lib/demo_pkg
+[0.561s] running install
+[0.561s] running install_lib
+[0.561s] creating /home/wp/learn_ros/chapter02/install/demo_pkg/lib/python3.10/site-packages/demo_pkg
+[0.561s] copying /home/wp/learn_ros/chapter02/build/demo_pkg/build/lib/demo_pkg/python_node.py -> /home/wp/learn_ros/chapter02/install/demo_pkg/lib/python3.10/site-packages/demo_pkg
+[0.561s] copying /home/wp/learn_ros/chapter02/build/demo_pkg/build/lib/demo_pkg/__init__.py -> /home/wp/learn_ros/chapter02/install/demo_pkg/lib/python3.10/site-packages/demo_pkg
+[0.561s] byte-compiling /home/wp/learn_ros/chapter02/install/demo_pkg/lib/python3.10/site-packages/demo_pkg/python_node.py to python_node.cpython-310.pyc
+[0.562s] byte-compiling /home/wp/learn_ros/chapter02/install/demo_pkg/lib/python3.10/site-packages/demo_pkg/__init__.py to __init__.cpython-310.pyc
+[0.562s] running install_data
+[0.562s] creating /home/wp/learn_ros/chapter02/install/demo_pkg/share/ament_index
+[0.562s] creating /home/wp/learn_ros/chapter02/install/demo_pkg/share/ament_index/resource_index
+[0.562s] creating /home/wp/learn_ros/chapter02/install/demo_pkg/share/ament_index/resource_index/packages
+[0.562s] copying resource/demo_pkg -> /home/wp/learn_ros/chapter02/install/demo_pkg/share/ament_index/resource_index/packages
+[0.562s] copying package.xml -> /home/wp/learn_ros/chapter02/install/demo_pkg/share/demo_pkg
+[0.562s] running install_egg_info
+[0.563s] Copying ../build/demo_pkg/demo_pkg.egg-info to /home/wp/learn_ros/chapter02/install/demo_pkg/lib/python3.10/site-packages/demo_pkg-0.0.0-py3.10.egg-info
+[0.563s] running install_scripts
+[0.577s] Installing node1 script to /home/wp/learn_ros/chapter02/install/demo_pkg/lib/demo_pkg
+[0.577s] writing list of installed files to '/home/wp/learn_ros/chapter02/build/demo_pkg/install.log'
+[0.591s] Invoked command in '/home/wp/learn_ros/chapter02/demo_pkg' returned '0': PYTHONPATH=/home/wp/learn_ros/chapter02/build/demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wp/learn_ros/chapter02/install/demo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_pkg build --build-base /home/wp/learn_ros/chapter02/build/demo_pkg/build install --record /home/wp/learn_ros/chapter02/build/demo_pkg/install.log --single-version-externally-managed install_data
