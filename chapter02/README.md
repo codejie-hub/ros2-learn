@@ -1,7 +1,7 @@
 <!-- ros2 创建包 -->
 ros2 pkg create demo_pkg --build-type ament_python --license Apache-2.0
 
-<!-- 编译 -->
+<!-- 编译 -->  
 colcon build
 
 <!-- 查看环境变量 -->
