@@ -1,0 +1,3 @@
+[console_scripts]
+node4 = package_nodes.node4:main
+
