@@ -1,0 +1,4 @@
+[console_scripts]
+topic_publish_node = example_topic.topic_publish_node:main
+topic_subscribe_node = example_topic.topic_subscribe_node:main
+

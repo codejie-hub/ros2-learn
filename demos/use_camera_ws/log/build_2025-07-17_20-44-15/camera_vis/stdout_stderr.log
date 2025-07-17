@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/camera_vis/camera_vis.egg-info
+writing ../../build/camera_vis/camera_vis.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_vis/camera_vis.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_vis/camera_vis.egg-info/entry_points.txt
+writing requirements to ../../build/camera_vis/camera_vis.egg-info/requires.txt
+writing top-level names to ../../build/camera_vis/camera_vis.egg-info/top_level.txt
+writing manifest file '../../build/camera_vis/camera_vis.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_vis/camera_vis.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_vis/camera_vis.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wp/learn_ros/demos/use_camera_ws/build/camera_vis/build
+creating /home/wp/learn_ros/demos/use_camera_ws/build/camera_vis/build/lib
+creating /home/wp/learn_ros/demos/use_camera_ws/build/camera_vis/build/lib/camera_vis
+copying camera_vis/camera_Img_sub.py -> /home/wp/learn_ros/demos/use_camera_ws/build/camera_vis/build/lib/camera_vis
+copying camera_vis/__init__.py -> /home/wp/learn_ros/demos/use_camera_ws/build/camera_vis/build/lib/camera_vis
+running install
+running install_lib
+creating /home/wp/learn_ros/demos/use_camera_ws/install/camera_vis/lib/python3.10/site-packages/camera_vis
+copying /home/wp/learn_ros/demos/use_camera_ws/build/camera_vis/build/lib/camera_vis/camera_Img_sub.py -> /home/wp/learn_ros/demos/use_camera_ws/install/camera_vis/lib/python3.10/site-packages/camera_vis
+copying /home/wp/learn_ros/demos/use_camera_ws/build/camera_vis/build/lib/camera_vis/__init__.py -> /home/wp/learn_ros/demos/use_camera_ws/install/camera_vis/lib/python3.10/site-packages/camera_vis
+byte-compiling /home/wp/learn_ros/demos/use_camera_ws/install/camera_vis/lib/python3.10/site-packages/camera_vis/camera_Img_sub.py to camera_Img_sub.cpython-310.pyc
+byte-compiling /home/wp/learn_ros/demos/use_camera_ws/install/camera_vis/lib/python3.10/site-packages/camera_vis/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wp/learn_ros/demos/use_camera_ws/install/camera_vis/share/ament_index
+creating /home/wp/learn_ros/demos/use_camera_ws/install/camera_vis/share/ament_index/resource_index
+creating /home/wp/learn_ros/demos/use_camera_ws/install/camera_vis/share/ament_index/resource_index/packages
+copying resource/camera_vis -> /home/wp/learn_ros/demos/use_camera_ws/install/camera_vis/share/ament_index/resource_index/packages
+copying package.xml -> /home/wp/learn_ros/demos/use_camera_ws/install/camera_vis/share/camera_vis
+running install_egg_info
+Copying ../../build/camera_vis/camera_vis.egg-info to /home/wp/learn_ros/demos/use_camera_ws/install/camera_vis/lib/python3.10/site-packages/camera_vis-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_subscriber script to /home/wp/learn_ros/demos/use_camera_ws/install/camera_vis/lib/camera_vis
+writing list of installed files to '/home/wp/learn_ros/demos/use_camera_ws/build/camera_vis/install.log'

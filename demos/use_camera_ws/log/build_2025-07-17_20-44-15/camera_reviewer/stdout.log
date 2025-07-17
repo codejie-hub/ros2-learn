@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/camera_reviewer/camera_reviewer.egg-info
+writing ../../build/camera_reviewer/camera_reviewer.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_reviewer/camera_reviewer.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_reviewer/camera_reviewer.egg-info/entry_points.txt
+writing requirements to ../../build/camera_reviewer/camera_reviewer.egg-info/requires.txt
+writing top-level names to ../../build/camera_reviewer/camera_reviewer.egg-info/top_level.txt
+writing manifest file '../../build/camera_reviewer/camera_reviewer.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_reviewer/camera_reviewer.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_reviewer/camera_reviewer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wp/learn_ros/demos/use_camera_ws/build/camera_reviewer/build
+creating /home/wp/learn_ros/demos/use_camera_ws/build/camera_reviewer/build/lib
+creating /home/wp/learn_ros/demos/use_camera_ws/build/camera_reviewer/build/lib/camera_reviewer
+copying camera_reviewer/camera_review_publisher.py -> /home/wp/learn_ros/demos/use_camera_ws/build/camera_reviewer/build/lib/camera_reviewer
+copying camera_reviewer/__init__.py -> /home/wp/learn_ros/demos/use_camera_ws/build/camera_reviewer/build/lib/camera_reviewer
+running install
+running install_lib
+creating /home/wp/learn_ros/demos/use_camera_ws/install/camera_reviewer/lib/python3.10/site-packages/camera_reviewer
+copying /home/wp/learn_ros/demos/use_camera_ws/build/camera_reviewer/build/lib/camera_reviewer/camera_review_publisher.py -> /home/wp/learn_ros/demos/use_camera_ws/install/camera_reviewer/lib/python3.10/site-packages/camera_reviewer
+copying /home/wp/learn_ros/demos/use_camera_ws/build/camera_reviewer/build/lib/camera_reviewer/__init__.py -> /home/wp/learn_ros/demos/use_camera_ws/install/camera_reviewer/lib/python3.10/site-packages/camera_reviewer
+byte-compiling /home/wp/learn_ros/demos/use_camera_ws/install/camera_reviewer/lib/python3.10/site-packages/camera_reviewer/camera_review_publisher.py to camera_review_publisher.cpython-310.pyc
+byte-compiling /home/wp/learn_ros/demos/use_camera_ws/install/camera_reviewer/lib/python3.10/site-packages/camera_reviewer/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wp/learn_ros/demos/use_camera_ws/install/camera_reviewer/share/ament_index
+creating /home/wp/learn_ros/demos/use_camera_ws/install/camera_reviewer/share/ament_index/resource_index
+creating /home/wp/learn_ros/demos/use_camera_ws/install/camera_reviewer/share/ament_index/resource_index/packages
+copying resource/camera_reviewer -> /home/wp/learn_ros/demos/use_camera_ws/install/camera_reviewer/share/ament_index/resource_index/packages
+copying package.xml -> /home/wp/learn_ros/demos/use_camera_ws/install/camera_reviewer/share/camera_reviewer
+running install_egg_info
+Copying ../../build/camera_reviewer/camera_reviewer.egg-info to /home/wp/learn_ros/demos/use_camera_ws/install/camera_reviewer/lib/python3.10/site-packages/camera_reviewer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_publiser script to /home/wp/learn_ros/demos/use_camera_ws/install/camera_reviewer/lib/camera_reviewer
+writing list of installed files to '/home/wp/learn_ros/demos/use_camera_ws/build/camera_reviewer/install.log'

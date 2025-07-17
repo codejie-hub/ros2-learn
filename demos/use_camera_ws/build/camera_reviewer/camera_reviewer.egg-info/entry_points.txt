@@ -1,0 +1,3 @@
+[console_scripts]
+camera_publiser = camera_reviewer.camera_review_publisher:main
+

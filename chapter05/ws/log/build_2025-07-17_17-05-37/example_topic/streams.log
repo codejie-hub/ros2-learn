@@ -1,0 +1,42 @@
+[0.557s] Invoking command in '/home/wp/learn_ros/chapter05/ws/src/example_topic': PYTHONPATH=/home/wp/learn_ros/chapter05/ws/build/example_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wp/learn_ros/chapter05/ws/install/example_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_topic build --build-base /home/wp/learn_ros/chapter05/ws/build/example_topic/build install --record /home/wp/learn_ros/chapter05/ws/build/example_topic/install.log --single-version-externally-managed install_data
+[0.748s] running egg_info
+[0.749s] creating ../../build/example_topic/example_topic.egg-info
+[0.749s] writing ../../build/example_topic/example_topic.egg-info/PKG-INFO
+[0.749s] writing dependency_links to ../../build/example_topic/example_topic.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../../build/example_topic/example_topic.egg-info/entry_points.txt
+[0.749s] writing requirements to ../../build/example_topic/example_topic.egg-info/requires.txt
+[0.749s] writing top-level names to ../../build/example_topic/example_topic.egg-info/top_level.txt
+[0.749s] writing manifest file '../../build/example_topic/example_topic.egg-info/SOURCES.txt'
+[0.751s] reading manifest file '../../build/example_topic/example_topic.egg-info/SOURCES.txt'
+[0.751s] adding license file 'LICENSE'
+[0.751s] writing manifest file '../../build/example_topic/example_topic.egg-info/SOURCES.txt'
+[0.752s] running build
+[0.752s] running build_py
+[0.752s] creating /home/wp/learn_ros/chapter05/ws/build/example_topic/build
+[0.752s] creating /home/wp/learn_ros/chapter05/ws/build/example_topic/build/lib
+[0.752s] creating /home/wp/learn_ros/chapter05/ws/build/example_topic/build/lib/example_topic
+[0.752s] copying example_topic/__init__.py -> /home/wp/learn_ros/chapter05/ws/build/example_topic/build/lib/example_topic
+[0.752s] copying example_topic/topic_publish_node.py -> /home/wp/learn_ros/chapter05/ws/build/example_topic/build/lib/example_topic
+[0.752s] copying example_topic/topic_subscribe_node.py -> /home/wp/learn_ros/chapter05/ws/build/example_topic/build/lib/example_topic
+[0.752s] running install
+[0.752s] running install_lib
+[0.753s] creating /home/wp/learn_ros/chapter05/ws/install/example_topic/lib/python3.10/site-packages/example_topic
+[0.753s] copying /home/wp/learn_ros/chapter05/ws/build/example_topic/build/lib/example_topic/__init__.py -> /home/wp/learn_ros/chapter05/ws/install/example_topic/lib/python3.10/site-packages/example_topic
+[0.753s] copying /home/wp/learn_ros/chapter05/ws/build/example_topic/build/lib/example_topic/topic_publish_node.py -> /home/wp/learn_ros/chapter05/ws/install/example_topic/lib/python3.10/site-packages/example_topic
+[0.753s] copying /home/wp/learn_ros/chapter05/ws/build/example_topic/build/lib/example_topic/topic_subscribe_node.py -> /home/wp/learn_ros/chapter05/ws/install/example_topic/lib/python3.10/site-packages/example_topic
+[0.753s] byte-compiling /home/wp/learn_ros/chapter05/ws/install/example_topic/lib/python3.10/site-packages/example_topic/__init__.py to __init__.cpython-310.pyc
+[0.754s] byte-compiling /home/wp/learn_ros/chapter05/ws/install/example_topic/lib/python3.10/site-packages/example_topic/topic_publish_node.py to topic_publish_node.cpython-310.pyc
+[0.754s] byte-compiling /home/wp/learn_ros/chapter05/ws/install/example_topic/lib/python3.10/site-packages/example_topic/topic_subscribe_node.py to topic_subscribe_node.cpython-310.pyc
+[0.754s] running install_data
+[0.754s] creating /home/wp/learn_ros/chapter05/ws/install/example_topic/share/ament_index
+[0.755s] creating /home/wp/learn_ros/chapter05/ws/install/example_topic/share/ament_index/resource_index
+[0.755s] creating /home/wp/learn_ros/chapter05/ws/install/example_topic/share/ament_index/resource_index/packages
+[0.755s] copying resource/example_topic -> /home/wp/learn_ros/chapter05/ws/install/example_topic/share/ament_index/resource_index/packages
+[0.755s] copying package.xml -> /home/wp/learn_ros/chapter05/ws/install/example_topic/share/example_topic
+[0.755s] running install_egg_info
+[0.757s] Copying ../../build/example_topic/example_topic.egg-info to /home/wp/learn_ros/chapter05/ws/install/example_topic/lib/python3.10/site-packages/example_topic-0.0.0-py3.10.egg-info
+[0.758s] running install_scripts
+[0.777s] Installing topic_publish_node script to /home/wp/learn_ros/chapter05/ws/install/example_topic/lib/example_topic
+[0.777s] Installing topic_subscribe_node script to /home/wp/learn_ros/chapter05/ws/install/example_topic/lib/example_topic
+[0.777s] writing list of installed files to '/home/wp/learn_ros/chapter05/ws/build/example_topic/install.log'
+[0.797s] Invoked command in '/home/wp/learn_ros/chapter05/ws/src/example_topic' returned '0': PYTHONPATH=/home/wp/learn_ros/chapter05/ws/build/example_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wp/learn_ros/chapter05/ws/install/example_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_topic build --build-base /home/wp/learn_ros/chapter05/ws/build/example_topic/build install --record /home/wp/learn_ros/chapter05/ws/build/example_topic/install.log --single-version-externally-managed install_data
