@@ -1,0 +1,4 @@
+[console_scripts]
+clientNode = myservice.simple_client:main
+serviceNode = myservice.simple_service:main
+

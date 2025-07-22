@@ -1,0 +1,44 @@
+[0.573s] Invoking command in '/home/wp/learn_ros/chapter06/ws/src/myservice': CONDA_PROMPT_MODIFIER=(demo_env) PYTHONPATH=/home/wp/learn_ros/chapter06/ws/build/myservice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wp/learn_ros/chapter06/ws/install/myservice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myservice build --build-base /home/wp/learn_ros/chapter06/ws/build/myservice/build install --record /home/wp/learn_ros/chapter06/ws/build/myservice/install.log --single-version-externally-managed install_data
+[0.810s] running egg_info
+[0.811s] creating ../../build/myservice/myservice.egg-info
+[0.811s] writing ../../build/myservice/myservice.egg-info/PKG-INFO
+[0.812s] writing dependency_links to ../../build/myservice/myservice.egg-info/dependency_links.txt
+[0.812s] writing entry points to ../../build/myservice/myservice.egg-info/entry_points.txt
+[0.812s] writing requirements to ../../build/myservice/myservice.egg-info/requires.txt
+[0.812s] writing top-level names to ../../build/myservice/myservice.egg-info/top_level.txt
+[0.812s] writing manifest file '../../build/myservice/myservice.egg-info/SOURCES.txt'
+[0.814s] reading manifest file '../../build/myservice/myservice.egg-info/SOURCES.txt'
+[0.814s] adding license file 'LICENSE'
+[0.815s] writing manifest file '../../build/myservice/myservice.egg-info/SOURCES.txt'
+[0.815s] running build
+[0.815s] running build_py
+[0.815s] creating /home/wp/learn_ros/chapter06/ws/build/myservice/build
+[0.815s] creating /home/wp/learn_ros/chapter06/ws/build/myservice/build/lib
+[0.815s] creating /home/wp/learn_ros/chapter06/ws/build/myservice/build/lib/myservice
+[0.816s] copying myservice/simple_client.py -> /home/wp/learn_ros/chapter06/ws/build/myservice/build/lib/myservice
+[0.816s] copying myservice/__init__.py -> /home/wp/learn_ros/chapter06/ws/build/myservice/build/lib/myservice
+[0.816s] copying myservice/simple_service.py -> /home/wp/learn_ros/chapter06/ws/build/myservice/build/lib/myservice
+[0.816s] running install
+[0.816s] running install_lib
+[0.819s] creating /home/wp/learn_ros/chapter06/ws/install/myservice/lib/python3.10/site-packages/myservice
+[0.819s] copying /home/wp/learn_ros/chapter06/ws/build/myservice/build/lib/myservice/simple_client.py -> /home/wp/learn_ros/chapter06/ws/install/myservice/lib/python3.10/site-packages/myservice
+[0.819s] copying /home/wp/learn_ros/chapter06/ws/build/myservice/build/lib/myservice/__init__.py -> /home/wp/learn_ros/chapter06/ws/install/myservice/lib/python3.10/site-packages/myservice
+[0.820s] copying /home/wp/learn_ros/chapter06/ws/build/myservice/build/lib/myservice/simple_service.py -> /home/wp/learn_ros/chapter06/ws/install/myservice/lib/python3.10/site-packages/myservice
+[0.821s] byte-compiling /home/wp/learn_ros/chapter06/ws/install/myservice/lib/python3.10/site-packages/myservice/simple_client.py to simple_client.cpython-310.pyc
+[0.822s] byte-compiling /home/wp/learn_ros/chapter06/ws/install/myservice/lib/python3.10/site-packages/myservice/__init__.py to __init__.cpython-310.pyc
+[0.822s] byte-compiling /home/wp/learn_ros/chapter06/ws/install/myservice/lib/python3.10/site-packages/myservice/simple_service.py to simple_service.cpython-310.pyc
+[0.823s] running install_data
+[0.823s] creating /home/wp/learn_ros/chapter06/ws/install/myservice/share/ament_index
+[0.823s] creating /home/wp/learn_ros/chapter06/ws/install/myservice/share/ament_index/resource_index
+[0.823s] creating /home/wp/learn_ros/chapter06/ws/install/myservice/share/ament_index/resource_index/packages
+[0.824s] copying resource/myservice -> /home/wp/learn_ros/chapter06/ws/install/myservice/share/ament_index/resource_index/packages
+[0.824s] copying package.xml -> /home/wp/learn_ros/chapter06/ws/install/myservice/share/myservice
+[0.824s] creating /home/wp/learn_ros/chapter06/ws/install/myservice/share/myservice/srv
+[0.824s] copying srv/MyService.srv -> /home/wp/learn_ros/chapter06/ws/install/myservice/share/myservice/srv
+[0.824s] running install_egg_info
+[0.827s] Copying ../../build/myservice/myservice.egg-info to /home/wp/learn_ros/chapter06/ws/install/myservice/lib/python3.10/site-packages/myservice-0.0.0-py3.10.egg-info
+[0.829s] running install_scripts
+[0.855s] Installing clientNode script to /home/wp/learn_ros/chapter06/ws/install/myservice/lib/myservice
+[0.855s] Installing serviceNode script to /home/wp/learn_ros/chapter06/ws/install/myservice/lib/myservice
+[0.856s] writing list of installed files to '/home/wp/learn_ros/chapter06/ws/build/myservice/install.log'
+[0.877s] Invoked command in '/home/wp/learn_ros/chapter06/ws/src/myservice' returned '0': CONDA_PROMPT_MODIFIER=(demo_env) PYTHONPATH=/home/wp/learn_ros/chapter06/ws/build/myservice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wp/learn_ros/chapter06/ws/install/myservice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myservice build --build-base /home/wp/learn_ros/chapter06/ws/build/myservice/build install --record /home/wp/learn_ros/chapter06/ws/build/myservice/install.log --single-version-externally-managed install_data
