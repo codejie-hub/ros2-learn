@@ -1,0 +1,232 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/wp/envs/demo_env/bin/python3 (found version "3.10.18") found components: Interpreter 
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /home/wp/envs/demo_env/bin/python3 (found suitable version "3.10.18", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /home/wp/envs/demo_env/lib/libpython3.10.so (found suitable version "3.10.18", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /home/wp/envs/demo_env/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /home/wp/envs/demo_env/include/python3.10
+-- Using PYTHON_LIBRARIES: /home/wp/envs/demo_env/lib/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Using numpy include directory: /home/wp/envs/demo_env/lib/python3.10/site-packages/numpy/core/include
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wp/learn_ros/demos/face_recognition_ws/build/face_interface
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target ament_cmake_python_copy_face_interface
+running egg_info
+creating face_interface.egg-info
+writing face_interface.egg-info/PKG-INFO
+writing dependency_links to face_interface.egg-info/dependency_links.txt
+writing top-level names to face_interface.egg-info/top_level.txt
+writing manifest file 'face_interface.egg-info/SOURCES.txt'
+reading manifest file 'face_interface.egg-info/SOURCES.txt'
+writing manifest file 'face_interface.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_face_interface_egg
+[  6%] Built target face_interface__cpp
+[  9%] [32mBuilding C object CMakeFiles/face_interface__rosidl_generator_c.dir/rosidl_generator_c/face_interface/srv/detail/face_detector__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 22%] [32m[1mLinking C shared library libface_interface__rosidl_generator_c.so[0m
+[ 22%] Built target face_interface__rosidl_generator_c
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/face_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/face_interface/srv/face_detector__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/face_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/face_interface/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/face_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/face_interface/srv/detail/face_detector__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/face_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/face_interface/srv/face_detector__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/face_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/face_interface/srv/detail/face_detector__type_support_c.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libface_interface__rosidl_typesupport_c.so[0m
+[ 54%] [32mBuilding C object CMakeFiles/face_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_interface/srv/detail/face_detector__type_support.c.o[0m
+[ 54%] Built target face_interface__rosidl_typesupport_c
+[ 58%] [32m[1mLinking C shared library libface_interface__rosidl_typesupport_introspection_c.so[0m
+[ 58%] Built target face_interface__rosidl_typesupport_introspection_c
+[ 61%] [32m[1mLinking CXX shared library libface_interface__rosidl_typesupport_cpp.so[0m
+[ 61%] Built target face_interface__rosidl_typesupport_cpp
+[ 64%] [32m[1mLinking CXX shared library libface_interface__rosidl_typesupport_introspection_cpp.so[0m
+[ 67%] [32m[1mLinking CXX shared library libface_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 70%] [32m[1mLinking CXX shared library libface_interface__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] Built target face_interface__rosidl_typesupport_introspection_cpp
+[ 70%] Built target face_interface__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target face_interface__rosidl_typesupport_fastrtps_c
+[ 70%] Built target face_interface
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target face_interface__py
+[ 77%] [32mBuilding C object CMakeFiles/face_interface__rosidl_generator_py.dir/rosidl_generator_py/face_interface/srv/_face_detector_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/face_interface/libface_interface__rosidl_generator_py.so[0m
+[ 80%] Built target face_interface__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/face_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/face_interface/_face_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/face_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/face_interface/_face_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/face_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/face_interface/_face_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/face_interface/face_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/face_interface/face_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/face_interface/face_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target face_interface__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target face_interface__rosidl_typesupport_c__pyext
+[100%] Built target face_interface__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/ament_index/resource_index/rosidl_interfaces/face_interface
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/msg
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/face_detector.h
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__struct.h
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__type_support.h
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__functions.c
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__functions.h
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/environment/library_path.sh
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/environment/library_path.dsv
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_generator_c.so
+-- Set runtime path of "/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/msg
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/msg
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/face_detector.hpp
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__builder.hpp
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__type_support.hpp
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__traits.hpp
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__struct.hpp
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/msg
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/dds_fastrtps
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/msg
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__type_support.c
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_typesupport_c.so
+-- Set runtime path of "/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv
+-- Up-to-date: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__type_support.cpp
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/include/face_interface/face_interface/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/environment/pythonpath.sh
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/environment/pythonpath.dsv
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface-0.0.0-py3.10.egg-info
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/_face_interface_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/__init__.py
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/_face_interface_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/_face_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/face_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/face_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/libface_interface__rosidl_generator_py.so
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/srv
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/srv/_face_detector_s.c
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/srv/_face_detector.py
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/srv/__init__.py
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/face_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface'...
+Compiling '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/__init__.py'...
+Listing '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/srv'...
+Compiling '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/srv/__init__.py'...
+Compiling '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/srv/_face_detector.py'...
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/face_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/face_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/face_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/face_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/face_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages/face_interface/face_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_generator_py.so
+-- Set runtime path of "/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/libface_interface__rosidl_generator_py.so" to ""
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/srv/FaceDetector.idl
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/srv/FaceDetector.srv
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/srv/FaceDetector_Request.msg
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/srv/FaceDetector_Response.msg
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/ament_index/resource_index/package_run_dependencies/face_interface
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/ament_index/resource_index/parent_prefix_path/face_interface
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/environment/ament_prefix_path.sh
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/environment/path.sh
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/environment/path.dsv
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/local_setup.bash
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/local_setup.sh
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/local_setup.zsh
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/local_setup.dsv
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/package.dsv
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/ament_index/resource_index/packages/face_interface
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/export_face_interface__rosidl_generator_cExport.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/export_face_interface__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/export_face_interface__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/export_face_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/export_face_interface__rosidl_generator_cppExport.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/export_face_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/export_face_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/face_interface__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/face_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/face_interface__rosidl_typesupport_cExport.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/face_interface__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/face_interface__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/face_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/face_interface__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/face_interface__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/export_face_interface__rosidl_generator_pyExport.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/export_face_interface__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/face_interfaceConfig.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/cmake/face_interfaceConfig-version.cmake
+-- Installing: /home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/package.xml

@@ -11,9 +11,6 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        # 安装服务定义文件
-        (os.path.join('share', package_name, 'srv'), glob('srv/*.srv')),
-        # ('share/'+ package_name+'srv/*.srv'),
     ],
     install_requires=['setuptools','rosidl_runtime_py',],
     zip_safe=True,

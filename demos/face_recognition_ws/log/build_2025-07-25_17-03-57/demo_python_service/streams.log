@@ -1,0 +1,36 @@
+[0.550s] Invoking command in '/home/wp/learn_ros/demos/face_recognition_ws/src/demo_python_service': CONDA_PROMPT_MODIFIER=(demo_env) LD_LIBRARY_PATH=/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/prefix_override:/home/wp/envs/demo_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/python3.10/site-packages:/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages:${PYTHONPATH} /home/wp/envs/demo_env/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/build install --record /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.688s] /home/wp/envs/demo_env/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.688s]   warnings.warn(msg)
+[0.746s] running egg_info
+[0.756s] creating ../../build/demo_python_service/demo_python_service.egg-info
+[0.756s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.756s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.756s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.757s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.757s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.757s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.776s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.776s] adding license file 'LICENSE'
+[0.777s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.777s] running build
+[0.778s] running build_py
+[0.778s] creating /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/build/lib/demo_python_service
+[0.778s] copying demo_python_service/face_detect.py -> /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/build/lib/demo_python_service
+[0.778s] copying demo_python_service/__init__.py -> /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/build/lib/demo_python_service
+[0.778s] running install
+[0.782s] running install_lib
+[0.791s] creating /home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.791s] copying /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/build/lib/demo_python_service/face_detect.py -> /home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.791s] copying /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/build/lib/demo_python_service/__init__.py -> /home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.792s] byte-compiling /home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect.py to face_detect.cpython-310.pyc
+[0.792s] byte-compiling /home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__init__.py to __init__.cpython-310.pyc
+[0.792s] running install_data
+[0.792s] creating /home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/ament_index/resource_index/packages
+[0.792s] copying resource/demo_python_service -> /home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/ament_index/resource_index/packages
+[0.793s] copying package.xml -> /home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/demo_python_service
+[0.793s] running install_egg_info
+[0.803s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[0.804s] running install_scripts
+[0.874s] Installing face_detect script to /home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/demo_python_service
+[0.874s] writing list of installed files to '/home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/install.log'
+[0.899s] Invoked command in '/home/wp/learn_ros/demos/face_recognition_ws/src/demo_python_service' returned '0': CONDA_PROMPT_MODIFIER=(demo_env) LD_LIBRARY_PATH=/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/prefix_override:/home/wp/envs/demo_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/python3.10/site-packages:/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages:${PYTHONPATH} /home/wp/envs/demo_env/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/build install --record /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/install.log --single-version-externally-managed install_data

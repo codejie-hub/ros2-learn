@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "face_interface__py",
+		"source" : "/home/wp/learn_ros/demos/face_recognition_ws/build/face_interface/face_interface__py"
+	}
+}

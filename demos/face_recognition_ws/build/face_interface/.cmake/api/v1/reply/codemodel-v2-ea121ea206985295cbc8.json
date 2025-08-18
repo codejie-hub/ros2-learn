@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ba66d53c20612adb05c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "face_interface__py",
+					"jsonFile" : "directory-face_interface__py-9295e2d774926302663d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/wp/learn_ros/demos/face_recognition_ws/build/face_interface/face_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "face_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_face_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_face_interface_egg-8da471cda9cd9d3a91e1.json",
+					"name" : "ament_cmake_python_build_face_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_face_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_face_interface-f978dc6b0f9fbc94208f.json",
+					"name" : "ament_cmake_python_copy_face_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface-9ed067559491026a1bee.json",
+					"name" : "face_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface__cpp-449c6685ddfd4e7ab54c.json",
+					"name" : "face_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "face_interface__py::@494bd0b2c04c40658771",
+					"jsonFile" : "target-face_interface__py-bd57b5e5d7483ece9d16.json",
+					"name" : "face_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface__rosidl_generator_c-07902bc62ed87b975d17.json",
+					"name" : "face_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface__rosidl_generator_py-8f0b2a3a8f3655cadcf6.json",
+					"name" : "face_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface__rosidl_typesupport_c-f88adf0fe95f21a5acc6.json",
+					"name" : "face_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface__rosidl_typesupport_c__pyext-5a44601b7158a4670d52.json",
+					"name" : "face_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface__rosidl_typesupport_cpp-e6f2f69b5ddb0b52be82.json",
+					"name" : "face_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface__rosidl_typesupport_fastrtps_c-2fddb4b3c35ac09ffaa4.json",
+					"name" : "face_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface__rosidl_typesupport_fastrtps_c__pyext-cc42ac53f8dd86924f0d.json",
+					"name" : "face_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface__rosidl_typesupport_fastrtps_cpp-783aa3f45e42bad280ef.json",
+					"name" : "face_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface__rosidl_typesupport_introspection_c-571097180437ce79fcd5.json",
+					"name" : "face_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface__rosidl_typesupport_introspection_c__pyext-0c3819b103538359292c.json",
+					"name" : "face_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface__rosidl_typesupport_introspection_cpp-2684cc50591b5197bce4.json",
+					"name" : "face_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interface_uninstall-cc09bb3c953d23365f06.json",
+					"name" : "face_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-944b9b44eea9b261d2bd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wp/learn_ros/demos/face_recognition_ws/build/face_interface",
+		"source" : "/home/wp/learn_ros/demos/face_recognition_ws/src/face_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

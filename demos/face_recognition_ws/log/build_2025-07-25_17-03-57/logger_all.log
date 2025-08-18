@@ -1,0 +1,208 @@
+[0.110s] DEBUG:colcon:Command line arguments: ['/home/wp/envs/demo_env/bin/colcon', 'build']
+[0.110s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75752dd0f850>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75752de44e50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75752de44e50>>)
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.144s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wp/learn_ros/demos/face_recognition_ws'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo_python_service' with type 'ros.ament_python' and name 'demo_python_service'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interface) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interface) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interface) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interface) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interface) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interface) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interface) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interface) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/face_interface' with type 'ros.ament_cmake' and name 'face_interface'
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'face_interface' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'face_interface' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'face_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'face_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'face_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'face_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'face_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'face_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'face_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'face_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wp/learn_ros/demos/face_recognition_ws/build/face_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface', 'merge_install': False, 'path': '/home/wp/learn_ros/demos/face_recognition_ws/src/face_interface', 'symlink_install': False, 'test_result_base': None}
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'demo_python_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service', 'merge_install': False, 'path': '/home/wp/learn_ros/demos/face_recognition_ws/src/demo_python_service', 'symlink_install': False, 'test_result_base': None}
+[0.190s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.191s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wp/learn_ros/demos/face_recognition_ws/src/face_interface' with build type 'ament_cmake'
+[0.191s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wp/learn_ros/demos/face_recognition_ws/src/face_interface'
+[0.193s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.194s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.194s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.194s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wp/learn_ros/demos/face_recognition_ws/build/face_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(demo_env) /usr/bin/cmake /home/wp/learn_ros/demos/face_recognition_ws/src/face_interface -DCMAKE_INSTALL_PREFIX=/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface
+[2.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wp/learn_ros/demos/face_recognition_ws/build/face_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(demo_env) /usr/bin/cmake /home/wp/learn_ros/demos/face_recognition_ws/src/face_interface -DCMAKE_INSTALL_PREFIX=/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface
+[2.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wp/learn_ros/demos/face_recognition_ws/build/face_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(demo_env) /usr/bin/cmake --build /home/wp/learn_ros/demos/face_recognition_ws/build/face_interface -- -j20 -l20
+[4.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wp/learn_ros/demos/face_recognition_ws/build/face_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(demo_env) /usr/bin/cmake --build /home/wp/learn_ros/demos/face_recognition_ws/build/face_interface -- -j20 -l20
+[4.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wp/learn_ros/demos/face_recognition_ws/build/face_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(demo_env) /usr/bin/cmake --install /home/wp/learn_ros/demos/face_recognition_ws/build/face_interface
+[4.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_interface)
+[4.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wp/learn_ros/demos/face_recognition_ws/build/face_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(demo_env) /usr/bin/cmake --install /home/wp/learn_ros/demos/face_recognition_ws/build/face_interface
+[4.472s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface' for CMake module files
+[4.472s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface' for CMake config files
+[4.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_interface', 'cmake_prefix_path')
+[4.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/cmake_prefix_path.ps1'
+[4.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/cmake_prefix_path.dsv'
+[4.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/cmake_prefix_path.sh'
+[4.474s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib'
+[4.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_interface', 'ld_library_path_lib')
+[4.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/ld_library_path_lib.ps1'
+[4.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/ld_library_path_lib.dsv'
+[4.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/ld_library_path_lib.sh'
+[4.475s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/bin'
+[4.476s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/pkgconfig/face_interface.pc'
+[4.477s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages'
+[4.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_interface', 'pythonpath')
+[4.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/pythonpath.ps1'
+[4.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/pythonpath.dsv'
+[4.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/pythonpath.sh'
+[4.478s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/bin'
+[4.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/package.ps1'
+[4.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/package.dsv'
+[4.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/package.sh'
+[4.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/package.bash'
+[4.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/package.zsh'
+[4.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/colcon-core/packages/face_interface)
+[4.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_interface)
+[4.483s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface' for CMake module files
+[4.483s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface' for CMake config files
+[4.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_interface', 'cmake_prefix_path')
+[4.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/cmake_prefix_path.ps1'
+[4.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/cmake_prefix_path.dsv'
+[4.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/cmake_prefix_path.sh'
+[4.485s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib'
+[4.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_interface', 'ld_library_path_lib')
+[4.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/ld_library_path_lib.ps1'
+[4.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/ld_library_path_lib.dsv'
+[4.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/ld_library_path_lib.sh'
+[4.486s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/bin'
+[4.486s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/pkgconfig/face_interface.pc'
+[4.486s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages'
+[4.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_interface', 'pythonpath')
+[4.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/pythonpath.ps1'
+[4.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/pythonpath.dsv'
+[4.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/hook/pythonpath.sh'
+[4.487s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/bin'
+[4.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/package.ps1'
+[4.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/package.dsv'
+[4.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/package.sh'
+[4.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/package.bash'
+[4.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/face_interface/package.zsh'
+[4.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/share/colcon-core/packages/face_interface)
+[4.491s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wp/learn_ros/demos/face_recognition_ws/src/demo_python_service' with build type 'ament_python'
+[4.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_python_service', 'ament_prefix_path')
+[4.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/demo_python_service/hook/ament_prefix_path.ps1'
+[4.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/demo_python_service/hook/ament_prefix_path.dsv'
+[4.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/demo_python_service/hook/ament_prefix_path.sh'
+[4.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.687s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wp/learn_ros/demos/face_recognition_ws/src/demo_python_service'
+[4.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wp/learn_ros/demos/face_recognition_ws/src/demo_python_service': CONDA_PROMPT_MODIFIER=(demo_env) LD_LIBRARY_PATH=/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/prefix_override:/home/wp/envs/demo_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/python3.10/site-packages:/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages:${PYTHONPATH} /home/wp/envs/demo_env/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/build install --record /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[5.392s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service' for CMake module files
+[5.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wp/learn_ros/demos/face_recognition_ws/src/demo_python_service' returned '0': CONDA_PROMPT_MODIFIER=(demo_env) LD_LIBRARY_PATH=/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/prefix_override:/home/wp/envs/demo_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/python3.10/site-packages:/home/wp/learn_ros/demos/face_recognition_ws/install/face_interface/lib/python3.10/site-packages:${PYTHONPATH} /home/wp/envs/demo_env/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/build install --record /home/wp/learn_ros/demos/face_recognition_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[5.393s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service' for CMake config files
+[5.394s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib'
+[5.394s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/bin'
+[5.394s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/pkgconfig/demo_python_service.pc'
+[5.394s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/lib/python3.10/site-packages'
+[5.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_python_service', 'pythonpath')
+[5.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/demo_python_service/hook/pythonpath.ps1'
+[5.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/demo_python_service/hook/pythonpath.dsv'
+[5.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/demo_python_service/hook/pythonpath.sh'
+[5.396s] Level 1:colcon.colcon_core.environment:checking '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/bin'
+[5.396s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_python_service)
+[5.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/demo_python_service/package.ps1'
+[5.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/demo_python_service/package.dsv'
+[5.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/demo_python_service/package.sh'
+[5.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/demo_python_service/package.bash'
+[5.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/demo_python_service/package.zsh'
+[5.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wp/learn_ros/demos/face_recognition_ws/install/demo_python_service/share/colcon-core/packages/demo_python_service)
+[5.399s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.400s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.401s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[5.401s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.402s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.402s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[5.425s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.426s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wp/learn_ros/demos/face_recognition_ws/install/local_setup.ps1'
+[5.427s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wp/learn_ros/demos/face_recognition_ws/install/_local_setup_util_ps1.py'
+[5.428s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wp/learn_ros/demos/face_recognition_ws/install/setup.ps1'
+[5.428s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wp/learn_ros/demos/face_recognition_ws/install/local_setup.sh'
+[5.429s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wp/learn_ros/demos/face_recognition_ws/install/_local_setup_util_sh.py'
+[5.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wp/learn_ros/demos/face_recognition_ws/install/setup.sh'
+[5.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wp/learn_ros/demos/face_recognition_ws/install/local_setup.bash'
+[5.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wp/learn_ros/demos/face_recognition_ws/install/setup.bash'
+[5.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wp/learn_ros/demos/face_recognition_ws/install/local_setup.zsh'
+[5.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wp/learn_ros/demos/face_recognition_ws/install/setup.zsh'
