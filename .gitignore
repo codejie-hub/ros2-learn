@@ -1,3 +1,6 @@
-chapterxx/ws/install/
-chapterxx/ws/build/
-chapterxx/ws/log/
+chapter**/ws/install/
+chapter**/ws/build/
+chapter**/ws/log/
+ws/build/
+ws/install/
+ws/log/
