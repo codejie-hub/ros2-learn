@@ -4,3 +4,9 @@ chapter**/ws/log/
 ws/build/
 ws/install/
 ws/log/
+tf/ws**/build/
+tf/ws**/install/
+tf/ws**/log/
+demos/*/build/
+demos/*/install/
+demos/*/log/
